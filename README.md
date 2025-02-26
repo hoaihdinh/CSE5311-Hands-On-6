@@ -20,7 +20,8 @@ All defined under this directory `implementation/quick_sort/array_data`
 ### Best Case (Each pivot divides subarray evenly)
 ```math
 T(1) = 1
-\\
+```
+```math
 T(n) = T(n/2) + T(n/2 - 1) + O(n)
 ```
 ```math
@@ -44,9 +45,11 @@ T(n) = O(nlgn)
 ### Worst Case
 ```math
 T(1) = 1
-\\
+```
+```math
 T(0) = 1
-\\
+```
+```math
 T(n) = T(0) + T(n-1) + O(n)
 ```
 ```math
