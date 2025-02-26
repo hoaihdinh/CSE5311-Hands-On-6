@@ -1,0 +1,304 @@
+===== OPTIMAL ARRAY BENCHMARK 1 =====
+Array: { 0,  1,  3,  4,  2,  6,  7,  9,  8,  5}
+Size: 10
+
+--- Quick Sort (no random pivot) ---
+Output: { 0,  1,  2,  3,  4,  5,  6,  7,  8,  9}
+Time to execute: 0.000724ms
+--- Quick Sort (random pivot) ---
+Output: { 0,  1,  2,  3,  4,  5,  6,  7,  8,  9}
+Time to execute: 0.004557ms
+
+
+===== OPTIMAL ARRAY BENCHMARK 2 =====
+Size: 100
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.003938ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.005965ms
+
+
+===== OPTIMAL ARRAY BENCHMARK 3 =====
+Size: 200
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.008674ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.0103ms
+
+
+===== OPTIMAL ARRAY BENCHMARK 4 =====
+Size: 300
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.013862ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.014251ms
+
+
+===== OPTIMAL ARRAY BENCHMARK 5 =====
+Size: 400
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.027613ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.024577ms
+
+
+===== OPTIMAL ARRAY BENCHMARK 6 =====
+Size: 500
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.025786ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.028482ms
+
+
+===== OPTIMAL ARRAY BENCHMARK 7 =====
+Size: 600
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.041458ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.043949ms
+
+
+===== OPTIMAL ARRAY BENCHMARK 8 =====
+Size: 700
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.06058ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.045872ms
+
+
+===== OPTIMAL ARRAY BENCHMARK 9 =====
+Size: 800
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.072934ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.047566ms
+
+
+===== OPTIMAL ARRAY BENCHMARK 10 =====
+Size: 900
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.078275ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.055166ms
+
+
+===== OPTIMAL ARRAY BENCHMARK 11 =====
+Size: 1000
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.086932ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.062097ms
+
+
+===== WORST-CASE ARRAY BENCHMARK 1 =====
+Array: { 0,  1,  2,  3,  4,  5,  6,  7,  8,  9}
+Size: 10
+
+--- Quick Sort (no random pivot) ---
+Output: { 0,  1,  2,  3,  4,  5,  6,  7,  8,  9}
+Time to execute: 0.000563ms
+--- Quick Sort (random pivot) ---
+Output: { 0,  1,  2,  3,  4,  5,  6,  7,  8,  9}
+Time to execute: 0.000611ms
+
+
+===== WORST-CASE ARRAY BENCHMARK 2 =====
+Size: 100
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.01232ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.008941ms
+
+
+===== WORST-CASE ARRAY BENCHMARK 3 =====
+Size: 200
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.043791ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.008043ms
+
+
+===== WORST-CASE ARRAY BENCHMARK 4 =====
+Size: 300
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.108703ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.01259ms
+
+
+===== WORST-CASE ARRAY BENCHMARK 5 =====
+Size: 400
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.1711ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.020285ms
+
+
+===== WORST-CASE ARRAY BENCHMARK 6 =====
+Size: 500
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.257862ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.029435ms
+
+
+===== WORST-CASE ARRAY BENCHMARK 7 =====
+Size: 600
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.373336ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.029906ms
+
+
+===== WORST-CASE ARRAY BENCHMARK 8 =====
+Size: 700
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.498441ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.035708ms
+
+
+===== WORST-CASE ARRAY BENCHMARK 9 =====
+Size: 800
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.700441ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.051263ms
+
+
+===== WORST-CASE ARRAY BENCHMARK 10 =====
+Size: 900
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.986068ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.043883ms
+
+
+===== WORST-CASE ARRAY BENCHMARK 11 =====
+Size: 1000
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 1.22816ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.0615ms
+
+
+===== UNIFORM RAND ARRAY BENCHMARK 1 =====
+Array: { 987,  566,  735,  911,  523,  939,  931,  383,  431,  500}
+Size: 10
+
+--- Quick Sort (no random pivot) ---
+Output: { 383,  431,  500,  523,  566,  735,  911,  931,  939,  987}
+Time to execute: 0.000502ms
+--- Quick Sort (random pivot) ---
+Output: { 383,  431,  500,  523,  566,  735,  911,  931,  939,  987}
+Time to execute: 0.000823ms
+
+
+===== UNIFORM RAND ARRAY BENCHMARK 2 =====
+Size: 100
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.006296ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.007602ms
+
+
+===== UNIFORM RAND ARRAY BENCHMARK 3 =====
+Size: 200
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.013103ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.020714ms
+
+
+===== UNIFORM RAND ARRAY BENCHMARK 4 =====
+Size: 300
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.017429ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.022676ms
+
+
+===== UNIFORM RAND ARRAY BENCHMARK 5 =====
+Size: 400
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.024427ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.030273ms
+
+
+===== UNIFORM RAND ARRAY BENCHMARK 6 =====
+Size: 500
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.035139ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.046143ms
+
+
+===== UNIFORM RAND ARRAY BENCHMARK 7 =====
+Size: 600
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.040638ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.05584ms
+
+
+===== UNIFORM RAND ARRAY BENCHMARK 8 =====
+Size: 700
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.072041ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.048754ms
+
+
+===== UNIFORM RAND ARRAY BENCHMARK 9 =====
+Size: 800
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.052898ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.062024ms
+
+
+===== UNIFORM RAND ARRAY BENCHMARK 10 =====
+Size: 900
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.053161ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.065737ms
+
+
+===== UNIFORM RAND ARRAY BENCHMARK 11 =====
+Size: 1000
+
+--- Quick Sort (no random pivot) ---
+Time to execute: 0.063428ms
+--- Quick Sort (random pivot) ---
+Time to execute: 0.079019ms

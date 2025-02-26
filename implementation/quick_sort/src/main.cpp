@@ -68,7 +68,7 @@ int main() {
     };
 
     std::string array_tags[] = {"OPTIMAL ARRAY", "WORST-CASE ARRAY", "UNIFORM RAND ARRAY"};
-    for(int i = 0; i < 2; i++) {
+    for(int i = 0; i < 3; i++) {
         int j = 0;
         while(array_sizes[j] != -1) {
             benchmark_qsorts(all_arrays[i][j], array_sizes[j], j+1, array_tags[i]);
